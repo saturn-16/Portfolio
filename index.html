@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gaurav Kumar | Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <!-- Canvas Background -->
+  <canvas id="particles"></canvas>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">Gaurav's Portfolio</div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <video autoplay muted loop playsinline id="earth-video">
+      <source src="earth.mp4" type="video/mp4" />
+    </video>
+    <div class="hero-content">
+      <h1>Hi, I'm <span class="highlight">Gaurav Kumar</span></h1>
+      <p>Aspiring Cybersecurity Engineer & AI Explorer</p>
+      <a href="#projects" class="btn">View My Projects</a>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section float-trigger">
+    <h2>About Me</h2>
+    <p>I'm Gaurav Kumar, a passionate 2nd-year B.Tech CSE (Cybersecurity) student at VIT Bhopal University, originally from Delhi. As a self-driven solo developer and relentless learner, I'm on a mission to build real-world tools that make the digital world smarter, safer, and more accessible.
+
+My interests lie at the intersection of Cybersecurity, Artificial Intelligence, and automation. I thrive on late-night coding sessions, transforming curiosity into code — from phishing detection tools to gesture-controlled systems and conversational AI bots.
+
+While I’m still learning, I believe in solving real problems with technology. Every project I build is a step toward mastering my craft and contributing to a secure tech-driven future. Let’s build something impactful, one line of code at a time.</p>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section float-trigger">
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="project-card">
+        <h3>🛡️ AI Phishing Detector</h3>
+        <p>Detects phishing URLs using machine learning.</p>
+        <a href="https://github.com/saturn-16/AI-Phishing-Detection-Web-App" class="btn small" target="_blank">GitHub</a>
+      </div>
+      <div class="project-card">
+        <h3>🖱️ Virtual Mouse</h3>
+        <p>Gesture-controlled mouse using OpenCV & MediaPipe.</p>
+        <a href="https://github.com/saturn-16/AI-VIRTUAL-MOUSE" class="btn small" target="_blank">GitHub</a>
+      </div>
+      <div class="project-card">
+        <h3>🤖 Chatbot</h3>
+        <p>Conversational Gemini-powered AI chatbot.</p>
+        <a href="https://github.com/saturn-16/ChatterBuddy-Your-AI-WhatsApp-Sidekick" class="btn small" target="_blank">GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section float-trigger">
+    <h2>Contact</h2>
+    <p>Email: gk16122004@gmail.com</p>
+    <p>GitHub: <a href="https://github.com/saturn-16" target="_blank">github.com/gauravkumar</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Gaurav Kumar. Built with 💜 and curiosity.</p>
+  </footer>
+
+  <script src="particles.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
